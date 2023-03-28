@@ -2,7 +2,7 @@
 
 A new Flutter project.
 
-## Getting Started
+## S. M. Israt Ara 
 
 This project is a starting point for a Flutter application.
 
