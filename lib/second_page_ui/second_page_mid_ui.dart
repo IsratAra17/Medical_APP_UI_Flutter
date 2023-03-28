@@ -50,7 +50,8 @@ class _Second_p_Mid_UIState extends State<Second_p_Mid_UI> {
                       width: double.infinity,
                       child: ListView.builder(
                         shrinkWrap: true,
-                        scrollDirection: Axis.horizontal,
+
+                          scrollDirection: Axis.horizontal,
                           itemCount: drList.length,
                           itemBuilder: (context, index) {
 

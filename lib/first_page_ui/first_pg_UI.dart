@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:medical_app/first_page_ui/first_pg_mid_ui.dart';
 import 'package:medical_app/first_page_ui/first_pg_taglist.dart';
 
 import 'first_pg_appbar.dart';
@@ -20,7 +21,8 @@ class _First_pg_UIState extends State<First_pg_UI> {
             children: [
 
               First_pg_Appbar(),
-              First_pg_Tag_List()
+              First_pg_Tag_List(),
+              First_pg_mid_UI()
 
             ],
           )

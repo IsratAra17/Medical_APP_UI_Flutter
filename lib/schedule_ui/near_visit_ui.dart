@@ -21,7 +21,7 @@ class _Nearvisit_UIState extends State<Nearvisit_UI> {
 
 
 
-          padding: EdgeInsets.only(top: 30, left: 15.0,right: 15.0),
+          padding: EdgeInsets.only(top: 20, left: 15.0,right: 15.0),
 
           child:Column(
             crossAxisAlignment: CrossAxisAlignment.start,

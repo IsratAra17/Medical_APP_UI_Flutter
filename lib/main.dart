@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:medical_app/first_page_ui/first_pg_UI.dart';
 import 'package:medical_app/first_page_ui/first_pg_appbar.dart';
+import 'package:medical_app/first_page_ui/first_pg_mid_ui.dart';
 import 'package:medical_app/schedule_ui/schedule_ui.dart';
 import 'package:medical_app/second_page_ui/second_page_mid_ui.dart';
 import 'package:medical_app/second_page_ui/second_page_ui.dart';
+
+import 'bottom_nav/bottom_main_ui.dart';
 //import 'package:medical_app/schedule_ui/schedule_ui.dart';
 
 void main() {
@@ -31,7 +34,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home:Second_pg_UI()
+      home:Bottom_main_UI()
     );
   }
 }

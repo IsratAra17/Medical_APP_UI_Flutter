@@ -16,11 +16,12 @@ class _Tag_ListState extends State<Tag_List> {
   Widget build(BuildContext context) {
 
 
-    return Container(
+    return SafeArea(child: Container(
       padding: EdgeInsets.symmetric(horizontal: 25),
       //padding: EdgeInsets.only(left: 15.0),
       height: 50,
       child: ListView.separated(
+
         scrollDirection: Axis.horizontal,
         itemBuilder: (context,i)=>GestureDetector(
           onTap: (){
@@ -54,6 +55,6 @@ class _Tag_ListState extends State<Tag_List> {
       ),
 
 
-    );
+    ));
   }
 }
