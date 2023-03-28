@@ -13,22 +13,26 @@ class Second_p_Mid_UI extends StatefulWidget {
 class _Second_p_Mid_UIState extends State<Second_p_Mid_UI> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-        body: SafeArea(
-      child: Column(
+    return SafeArea(child: Container(
+      color: Colors.white,
+
+    padding: EdgeInsets.symmetric(horizontal: 20,vertical: 10),
+        child: Column(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text(
             "About doctor",
-            style: TextStyle(fontSize: 25),
+            style: TextStyle(fontSize: 15,fontWeight: FontWeight.bold),
           ),
           Text(
               "Dr. Viola Dunn's an experienced specialist who is \nconstantly working on improving her skills"),
+        SizedBox(height: 15),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              Text("Reviews  ⭐4.9 (124)", style: TextStyle(fontSize: 20)),
+
+              Text("Reviews  ⭐4.9 (124)", style: TextStyle(fontSize: 15,fontWeight: FontWeight.bold)),
               Text(
                 "See all",
                 style: TextStyle(color: Colors.blue),
@@ -105,7 +109,7 @@ class _Second_p_Mid_UIState extends State<Second_p_Mid_UI> {
               DecoratedBox(decoration: BoxDecoration(color: Colors.white)),
               Text(
                 "Location",
-                style: TextStyle(fontSize: 25),
+                style: TextStyle(fontSize: 15,fontWeight: FontWeight.bold),
               ),
               SizedBox(
                 height: 10,
@@ -114,8 +118,8 @@ class _Second_p_Mid_UIState extends State<Second_p_Mid_UI> {
                 children: [
                   CircleAvatar(
                     radius: 20,
-                    backgroundColor: Colors.deepPurple[100],
-                    child: Icon(Icons.location_on),
+                    backgroundColor: Colors.grey.withOpacity(0.4),
+                    child: Icon(Icons.location_on,color: Colors.deepPurpleAccent,),
                   ),
                   Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
