@@ -20,7 +20,7 @@ class _Futurevisit_UIState extends State<Futurevisit_UI> {
   @override
   Widget build(BuildContext context) {
     return SafeArea(child:
-      Padding(padding: EdgeInsets.only(top: 10, left: 15.0),
+      Padding(padding: EdgeInsets.only(top: 10, left: 15.5),
 
         child:Column(
             crossAxisAlignment: CrossAxisAlignment.start,
